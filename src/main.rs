@@ -11,7 +11,7 @@ fn main() {
   dotenv::dotenv().ok();
 
   let cli = Cli::new("Healthchecks helper utility")
-    .version("0.1.0")
+    .version("0.1.1")
     .author("EmperDeon <emperdeon@protonmail.com>")
     .about("Helps check health of apps and services");
 
